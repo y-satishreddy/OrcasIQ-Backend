@@ -42,11 +42,11 @@
 	</dependency>
 
 	<dependency>
-		<groupId>com.mysql</groupId>
-		<artifactId>mysql-connector-j</artifactId>
-		<version>8.0.33</version>
-		<scope>runtime</scope>
+		<groupId>mysql</groupId>
+		<artifactId>mysql-connector-java</artifactId>
+		<version>8.0.33</version>  <!-- use latest stable version -->
 	</dependency>
+
 
 	<dependency>
 		<groupId>org.springframework.boot</groupId>
@@ -77,8 +77,6 @@
 	</dependency>
 
 </dependencies>
-
-
 	<build>
 		<plugins>
 			<plugin>
@@ -107,5 +105,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
